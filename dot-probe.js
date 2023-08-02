@@ -247,5 +247,5 @@ var dot_probe = (function() {
   }
 
   var timeline = [credit_card, instructions, dot_probe_sequence, unresize];
-  return(timeline);
+  return({timeline: timeline});
 })();
