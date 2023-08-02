@@ -1,5 +1,5 @@
 
-function get_dot_probe_timeline() {
+var dot_probe = (function() {
   // ----------------------
   // Randomize stimuli
   // ----------------------
@@ -248,6 +248,4 @@ function get_dot_probe_timeline() {
 
   var timeline = [credit_card, instructions, dot_probe_sequence, unresize];
   return(timeline);
-}
-
-var dot_probe_timeline = get_dot_probe_timeline();
+})();
